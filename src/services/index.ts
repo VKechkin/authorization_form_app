@@ -1,4 +1,4 @@
-import users from "../const/users.json";
+import users from "@const/users.json";
 
 const getUsers = (log: string, pass: string) => {
   setTimeout(() => {

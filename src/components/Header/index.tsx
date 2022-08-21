@@ -1,6 +1,6 @@
 import React from "react";
 
-import { IPropsHeader } from "../../interfaces";
+import { IPropsHeader } from "@interfaces";
 
 import * as S from "./styles";
 

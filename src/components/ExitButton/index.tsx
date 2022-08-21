@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 
-import { IPropsButton } from "../../interfaces";
+import { IPropsButton } from "@interfaces";
 
 import * as S from "./styles";
 

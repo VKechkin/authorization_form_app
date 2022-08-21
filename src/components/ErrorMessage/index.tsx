@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
-import { IProps } from "../../interfaces";
+import { IProps } from "@interfaces";
 
 import * as S from "./styles";
 

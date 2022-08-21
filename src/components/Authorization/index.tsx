@@ -1,21 +1,19 @@
 import React, { useState, useContext } from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 
-import { ErrorMessage } from "../ErrorMessage";
+import { ErrorMessage } from "@components/ErrorMessage";
 
-import { ServerError } from "../ServerError";
+import { ServerError } from "@components/ServerError";
 
-import useAppNavigation from "../../hooks";
+import { useAppNavigation } from "@hooks";
 
-import { IProps } from "../../interfaces";
+import { IProps } from "@interfaces";
 
-import { Inputs } from "../../types";
+import { Inputs } from "@types";
 
-import { getUsers } from "../../services";
+import { AppContext } from "@store";
 
-import AppContext from "../../store";
-
-import users from "../../const/users.json";
+import users from "@const/users.json";
 
 import * as S from "./styles";
 

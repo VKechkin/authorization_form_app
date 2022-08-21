@@ -1,5 +1,5 @@
 const path = require("path");
-const { pathsToModuleNameMapper } = require("ts-jest");
+// const { pathsToModuleNameMapper } = require("ts-jest");
 const { compilerOptions } = require("./tsconfig.path.json");
 
 module.exports = {
@@ -14,12 +14,12 @@ module.exports = {
       "@const": path.resolve(__dirname, "src/const"),
     },
   },
-  jest: {
-    configure: {
-      preset: "ts-jest",
-      moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, {
-        prefix: "<rootDir>/src/",
-      }),
-    },
-  },
+  // jest: {
+  //   configure: {
+  //     preset: "ts-jest",
+  //     moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, {
+  //       prefix: "<rootDir>/src/",
+  //     }),
+  //   },
+  // },
 };

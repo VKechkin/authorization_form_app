@@ -9,4 +9,4 @@ const useAppNavigation = () => {
   return { goAuthorization, goProfile };
 };
 
-export default useAppNavigation;
+export { useAppNavigation };

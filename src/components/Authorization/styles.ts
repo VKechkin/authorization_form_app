@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-import { TPropsError } from "../../types";
+import { TPropsError } from "@types";
 
 export const DivWrapper = styled.div`
   width: 640px;

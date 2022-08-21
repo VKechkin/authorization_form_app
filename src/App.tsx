@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { useRoutes } from "react-router-dom";
 
-import { Header } from "./components/Header";
+import { Header } from "@components/Header";
 
-import AppContext from "./store";
+import { AppContext } from "@store";
 
 import Routes from "./Routes";
 

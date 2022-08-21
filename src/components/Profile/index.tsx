@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 
-import { ExitButton } from "../ExitButton";
+import { ExitButton } from "@components/ExitButton";
 
-import AppContext from "../../store";
+import { AppContext } from "@store";
 
-import useAppNavigation from "../../hooks";
+import { useAppNavigation } from "@hooks";
 
 import * as S from "./styles";
 
