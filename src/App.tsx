@@ -18,7 +18,7 @@ const App = () => {
     <>
       <AppContext.Provider value={{ userName, setUserName }}>
         <S.GlobalWrapper>
-          <Header />
+          <Header>ONLY.</Header>
           {routes}
         </S.GlobalWrapper>
 
